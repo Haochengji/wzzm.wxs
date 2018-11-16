@@ -1,10 +1,10 @@
 #开发配置
 spring:
   profiles:
-    active: dev
+  active: dev
   datasource:
     # 使用druid数据源
-      url: jdbc:mysql://106.12.192.13:3306/epos?serverTimezone=GMT%2B8
+    url: jdbc:mysql://106.12.192.14:3306/epos?serverTimezone=GMT%2B8
     username: root
     type: com.alibaba.druid.pool.DruidDataSource
     #这里放的是生成加密后的password

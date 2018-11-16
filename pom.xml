@@ -50,6 +50,11 @@
             <artifactId>wzzm.wxs</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.wzzm.wxs</groupId>
+            <artifactId>wzzm.wxs</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
 
         <!--引入cache-->
         <dependency>
@@ -87,6 +92,16 @@
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
             <version>1.2.16</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.7.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.7.0</version>
         </dependency>
 
     </dependencies>
