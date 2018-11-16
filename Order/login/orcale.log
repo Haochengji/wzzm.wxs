@@ -1,0 +1,48 @@
+2018-11-16 09:11:17.300  INFO 5660 --- [main] c.wzzz.wxs.order.OrderApplicationTests   : Starting OrderApplicationTests on DESKTOP-GLAGLH6 with PID 5660 (started by Jiga in F:\idea\wzzm.wxs\Order)
+2018-11-16 09:11:17.301  INFO 5660 --- [main] c.wzzz.wxs.order.OrderApplicationTests   : The following profiles are active: dev
+2018-11-16 09:11:17.949  WARN 5660 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wzzz.wxs.order]' package. Please check your configuration.
+2018-11-16 09:11:17.986  INFO 5660 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 09:11:17.988  INFO 5660 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-16 09:11:18.004  INFO 5660 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2018-11-16 09:11:18.258  INFO 5660 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 09:11:18.301  INFO 5660 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$acda2d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 09:11:18.322  INFO 5660 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 09:11:18.329  INFO 5660 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 09:11:18.940  INFO 5660 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-16 09:11:19.148  INFO 5660 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 09:11:19.531  INFO 5660 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 09:11:20.108  INFO 5660 --- [main] c.wzzz.wxs.order.OrderApplicationTests   : Started OrderApplicationTests in 3.127 seconds (JVM running for 4.48)
+2018-11-16 09:11:20.287  INFO 5660 --- [Thread-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2018-11-16 09:11:20.287  INFO 5660 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-11-16 09:12:10.296  INFO 2700 --- [main] c.wzzz.wxs.order.OrderApplicationTests   : Starting OrderApplicationTests on DESKTOP-GLAGLH6 with PID 2700 (started by Jiga in F:\idea\wzzm.wxs\Order)
+2018-11-16 09:12:10.297  INFO 2700 --- [main] c.wzzz.wxs.order.OrderApplicationTests   : The following profiles are active: dev
+2018-11-16 09:12:10.806  WARN 2700 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wzzz.wxs.order]' package. Please check your configuration.
+2018-11-16 09:12:10.836  INFO 2700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 09:12:10.838  INFO 2700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-16 09:12:10.855  INFO 2700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2018-11-16 09:12:11.119  INFO 2700 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 09:12:11.159  INFO 2700 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c134dfa9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 09:12:11.176  INFO 2700 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 09:12:11.182  INFO 2700 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 09:12:11.731  INFO 2700 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-16 09:12:11.936  INFO 2700 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 09:12:12.186  INFO 2700 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 09:12:12.730  INFO 2700 --- [main] c.wzzz.wxs.order.OrderApplicationTests   : Started OrderApplicationTests in 2.735 seconds (JVM running for 3.353)
+2018-11-16 09:12:13.428  INFO 2700 --- [Thread-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2018-11-16 09:12:13.428  INFO 2700 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-11-16 09:12:41.130  INFO 3740 --- [main] c.wzzz.wxs.order.OrderApplicationTests   : Starting OrderApplicationTests on DESKTOP-GLAGLH6 with PID 3740 (started by Jiga in F:\idea\wzzm.wxs\Order)
+2018-11-16 09:12:41.131  INFO 3740 --- [main] c.wzzz.wxs.order.OrderApplicationTests   : The following profiles are active: dev
+2018-11-16 09:12:41.639  WARN 3740 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wzzz.wxs.order]' package. Please check your configuration.
+2018-11-16 09:12:41.669  INFO 3740 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 09:12:41.671  INFO 3740 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-16 09:12:41.687  INFO 3740 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2018-11-16 09:12:41.951  INFO 3740 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 09:12:41.990  INFO 3740 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c134dfa9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 09:12:42.008  INFO 3740 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 09:12:42.015  INFO 3740 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 09:12:42.565  INFO 3740 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-16 09:12:42.775  INFO 3740 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 09:12:43.021  INFO 3740 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 09:12:43.558  INFO 3740 --- [main] c.wzzz.wxs.order.OrderApplicationTests   : Started OrderApplicationTests in 2.715 seconds (JVM running for 3.331)
+2018-11-16 09:12:43.962  INFO 3740 --- [Thread-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2018-11-16 09:12:43.962  INFO 3740 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
