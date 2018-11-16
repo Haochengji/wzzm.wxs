@@ -1367,3 +1367,702 @@ Consider defining a bean of type 'com.wzzz.wxs.order.cn.dao.UserDao' in your con
 2018-11-16 16:41:00.834  INFO 15084 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
 2018-11-16 16:41:01.292  INFO 15084 --- [http-nio-8080-exec-4] io.lettuce.core.EpollProvider            : Starting without optional epoll library
 2018-11-16 16:41:01.293  INFO 15084 --- [http-nio-8080-exec-4] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2018-11-16 16:44:14.258  INFO 14636 --- [main] com.wzzz.wxs.order.OrderApplication      : Starting OrderApplication on DESKTOP-GLAGLH6 with PID 14636 (F:\idea\wzzm.wxs\Order\target\classes started by Jiga in F:\idea\wzzm.wxs)
+2018-11-16 16:44:14.260  INFO 14636 --- [main] com.wzzz.wxs.order.OrderApplication      : No active profile set, falling back to default profiles: default
+2018-11-16 16:44:14.845  INFO 14636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 16:44:14.846  INFO 14636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-16 16:44:14.862  INFO 14636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2018-11-16 16:44:15.025  INFO 14636 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:44:15.043  INFO 14636 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$63fafc59] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:44:15.059  INFO 14636 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:44:15.063  INFO 14636 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:44:15.241  INFO 14636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-16 16:44:15.251  INFO 14636 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-16 16:44:15.251  INFO 14636 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-16 16:44:15.255  INFO 14636 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\jdk\jdk\bin;"F:\jdk\jdk\bin;F:\jdk\jdk\jre\bin";F:\mysql\bin;C:\WINDOWS\System32\OpenSSH\;F:\apache-maven-3.5.4\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Jiga\AppData\Local\Microsoft\WindowsApps;E:\Bandizip\;.]
+2018-11-16 16:44:15.328  INFO 14636 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-16 16:44:15.328  INFO 14636 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1039 ms
+2018-11-16 16:44:15.361  INFO 14636 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-16 16:44:15.361  INFO 14636 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet statViewServlet mapped to [/druid/*]
+2018-11-16 16:44:15.363  INFO 14636 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-16 16:44:15.364  INFO 14636 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-16 16:44:15.364  INFO 14636 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-16 16:44:15.364  INFO 14636 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-16 16:44:15.364  INFO 14636 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-16 16:44:15.542  INFO 14636 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 16:44:16.127  INFO 14636 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 16:44:17.026  INFO 14636 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-16 16:44:17.110  INFO 14636 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-16 16:44:17.304  INFO 14636 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-11-16 16:44:17.314  INFO 14636 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-11-16 16:44:17.337  INFO 14636 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-11-16 16:44:17.366  INFO 14636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-16 16:44:17.368  INFO 14636 --- [main] com.wzzz.wxs.order.OrderApplication      : Started OrderApplication in 3.36 seconds (JVM running for 3.864)
+2018-11-16 16:44:22.502  INFO 14636 --- [http-nio-8080-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-16 16:44:22.502  INFO 14636 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-11-16 16:44:22.508  INFO 14636 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2018-11-16 16:44:22.964  INFO 14636 --- [http-nio-8080-exec-5] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2018-11-16 16:44:22.965  INFO 14636 --- [http-nio-8080-exec-5] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2018-11-16 16:45:48.220  INFO 7908 --- [main] com.wzzz.wxs.order.OrderApplication      : Starting OrderApplication on DESKTOP-GLAGLH6 with PID 7908 (F:\idea\wzzm.wxs\Order\target\classes started by Jiga in F:\idea\wzzm.wxs)
+2018-11-16 16:45:48.222  INFO 7908 --- [main] com.wzzz.wxs.order.OrderApplication      : No active profile set, falling back to default profiles: default
+2018-11-16 16:45:48.806  INFO 7908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 16:45:48.808  INFO 7908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-16 16:45:48.825  INFO 7908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2018-11-16 16:45:48.986  INFO 7908 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:45:49.004  INFO 7908 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$93bf0c40] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:45:49.021  INFO 7908 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:45:49.025  INFO 7908 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:45:49.196  INFO 7908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-16 16:45:49.206  INFO 7908 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-16 16:45:49.207  INFO 7908 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-16 16:45:49.211  INFO 7908 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\jdk\jdk\bin;"F:\jdk\jdk\bin;F:\jdk\jdk\jre\bin";F:\mysql\bin;C:\WINDOWS\System32\OpenSSH\;F:\apache-maven-3.5.4\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Jiga\AppData\Local\Microsoft\WindowsApps;E:\Bandizip\;.]
+2018-11-16 16:45:49.283  INFO 7908 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-16 16:45:49.283  INFO 7908 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1033 ms
+2018-11-16 16:45:49.316  INFO 7908 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-16 16:45:49.317  INFO 7908 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet statViewServlet mapped to [/druid/*]
+2018-11-16 16:45:49.319  INFO 7908 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-16 16:45:49.319  INFO 7908 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-16 16:45:49.319  INFO 7908 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-16 16:45:49.320  INFO 7908 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-16 16:45:49.320  INFO 7908 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-16 16:45:49.500  INFO 7908 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 16:45:50.045  INFO 7908 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 16:45:50.931  INFO 7908 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-16 16:45:51.013  INFO 7908 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-16 16:45:51.203  INFO 7908 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-11-16 16:45:51.213  INFO 7908 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-11-16 16:45:51.236  INFO 7908 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-11-16 16:45:51.263  INFO 7908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-16 16:45:51.265  INFO 7908 --- [main] com.wzzz.wxs.order.OrderApplication      : Started OrderApplication in 3.304 seconds (JVM running for 3.847)
+2018-11-16 16:46:01.359  INFO 7908 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-16 16:46:01.360  INFO 7908 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-11-16 16:46:01.364  INFO 7908 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2018-11-16 16:46:38.997  INFO 5620 --- [main] com.wzzz.wxs.order.OrderApplication      : Starting OrderApplication on DESKTOP-GLAGLH6 with PID 5620 (F:\idea\wzzm.wxs\Order\target\classes started by Jiga in F:\idea\wzzm.wxs)
+2018-11-16 16:46:38.999  INFO 5620 --- [main] com.wzzz.wxs.order.OrderApplication      : No active profile set, falling back to default profiles: default
+2018-11-16 16:46:39.608  INFO 5620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 16:46:39.609  INFO 5620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-16 16:46:39.625  INFO 5620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2018-11-16 16:46:39.786  INFO 5620 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:46:39.803  INFO 5620 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3a277959] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:46:39.818  INFO 5620 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:46:39.822  INFO 5620 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:46:39.997  INFO 5620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-16 16:46:40.007  INFO 5620 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-16 16:46:40.008  INFO 5620 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-16 16:46:40.012  INFO 5620 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\jdk\jdk\bin;"F:\jdk\jdk\bin;F:\jdk\jdk\jre\bin";F:\mysql\bin;C:\WINDOWS\System32\OpenSSH\;F:\apache-maven-3.5.4\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Jiga\AppData\Local\Microsoft\WindowsApps;E:\Bandizip\;.]
+2018-11-16 16:46:40.084  INFO 5620 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-16 16:46:40.084  INFO 5620 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1060 ms
+2018-11-16 16:46:40.119  INFO 5620 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-16 16:46:40.120  INFO 5620 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet statViewServlet mapped to [/druid/*]
+2018-11-16 16:46:40.122  INFO 5620 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-16 16:46:40.122  INFO 5620 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-16 16:46:40.122  INFO 5620 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-16 16:46:40.122  INFO 5620 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-16 16:46:40.122  INFO 5620 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-16 16:46:40.299  INFO 5620 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 16:46:40.811  INFO 5620 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 16:46:41.684  INFO 5620 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-16 16:46:41.772  INFO 5620 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-16 16:46:41.963  INFO 5620 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-11-16 16:46:41.974  INFO 5620 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-11-16 16:46:41.996  INFO 5620 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-11-16 16:46:42.023  INFO 5620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-16 16:46:42.025  INFO 5620 --- [main] com.wzzz.wxs.order.OrderApplication      : Started OrderApplication in 3.278 seconds (JVM running for 3.806)
+2018-11-16 16:46:45.560  INFO 5620 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-16 16:46:45.561  INFO 5620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-11-16 16:46:45.565  INFO 5620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2018-11-16 16:47:53.567  INFO 15632 --- [main] com.wzzz.wxs.order.OrderApplication      : Starting OrderApplication on DESKTOP-GLAGLH6 with PID 15632 (F:\idea\wzzm.wxs\Order\target\classes started by Jiga in F:\idea\wzzm.wxs)
+2018-11-16 16:47:53.569  INFO 15632 --- [main] com.wzzz.wxs.order.OrderApplication      : No active profile set, falling back to default profiles: default
+2018-11-16 16:47:54.150  INFO 15632 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 16:47:54.152  INFO 15632 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-16 16:47:54.168  INFO 15632 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2018-11-16 16:47:54.332  INFO 15632 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:47:54.352  INFO 15632 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$81bd4cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:47:54.370  INFO 15632 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:47:54.374  INFO 15632 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:47:54.554  INFO 15632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-16 16:47:54.565  INFO 15632 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-16 16:47:54.565  INFO 15632 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-16 16:47:54.570  INFO 15632 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\jdk\jdk\bin;"F:\jdk\jdk\bin;F:\jdk\jdk\jre\bin";F:\mysql\bin;C:\WINDOWS\System32\OpenSSH\;F:\apache-maven-3.5.4\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Jiga\AppData\Local\Microsoft\WindowsApps;E:\Bandizip\;.]
+2018-11-16 16:47:54.642  INFO 15632 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-16 16:47:54.643  INFO 15632 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1044 ms
+2018-11-16 16:47:54.677  INFO 15632 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-16 16:47:54.677  INFO 15632 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet statViewServlet mapped to [/druid/*]
+2018-11-16 16:47:54.679  INFO 15632 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-16 16:47:54.679  INFO 15632 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-16 16:47:54.680  INFO 15632 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-16 16:47:54.680  INFO 15632 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-16 16:47:54.680  INFO 15632 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-16 16:47:54.864  INFO 15632 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 16:47:55.371  INFO 15632 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 16:47:56.308  INFO 15632 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-16 16:47:56.390  INFO 15632 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-16 16:47:56.581  INFO 15632 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-11-16 16:47:56.593  INFO 15632 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-11-16 16:47:56.615  INFO 15632 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-11-16 16:47:56.644  INFO 15632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-16 16:47:56.645  INFO 15632 --- [main] com.wzzz.wxs.order.OrderApplication      : Started OrderApplication in 3.338 seconds (JVM running for 3.87)
+2018-11-16 16:48:01.224  INFO 15632 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-16 16:48:01.224  INFO 15632 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-11-16 16:48:01.242  INFO 15632 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2018-11-16 16:48:36.658  INFO 13904 --- [main] com.wzzz.wxs.order.OrderApplication      : Starting OrderApplication on DESKTOP-GLAGLH6 with PID 13904 (F:\idea\wzzm.wxs\Order\target\classes started by Jiga in F:\idea\wzzm.wxs)
+2018-11-16 16:48:36.661  INFO 13904 --- [main] com.wzzz.wxs.order.OrderApplication      : No active profile set, falling back to default profiles: default
+2018-11-16 16:48:37.236  INFO 13904 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 16:48:37.238  INFO 13904 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-16 16:48:37.255  INFO 13904 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2018-11-16 16:48:37.420  INFO 13904 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:48:37.439  INFO 13904 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2deac71e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:48:37.456  INFO 13904 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:48:37.460  INFO 13904 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:48:37.636  INFO 13904 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-16 16:48:37.648  INFO 13904 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-16 16:48:37.649  INFO 13904 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-16 16:48:37.654  INFO 13904 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\jdk\jdk\bin;"F:\jdk\jdk\bin;F:\jdk\jdk\jre\bin";F:\mysql\bin;C:\WINDOWS\System32\OpenSSH\;F:\apache-maven-3.5.4\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Jiga\AppData\Local\Microsoft\WindowsApps;E:\Bandizip\;.]
+2018-11-16 16:48:37.733  INFO 13904 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-16 16:48:37.734  INFO 13904 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1047 ms
+2018-11-16 16:48:37.760  INFO 13904 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-16 16:48:37.761  INFO 13904 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet statViewServlet mapped to [/druid/*]
+2018-11-16 16:48:37.763  INFO 13904 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-16 16:48:37.763  INFO 13904 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-16 16:48:37.763  INFO 13904 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-16 16:48:37.763  INFO 13904 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-16 16:48:37.763  INFO 13904 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-16 16:48:37.956  INFO 13904 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 16:48:38.838  INFO 13904 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 16:48:39.670  INFO 13904 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-16 16:48:39.750  INFO 13904 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-16 16:48:39.938  INFO 13904 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-11-16 16:48:39.949  INFO 13904 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-11-16 16:48:39.971  INFO 13904 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-11-16 16:48:39.998  INFO 13904 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-16 16:48:40.000  INFO 13904 --- [main] com.wzzz.wxs.order.OrderApplication      : Started OrderApplication in 3.601 seconds (JVM running for 4.13)
+2018-11-16 16:48:45.385  INFO 13904 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-16 16:48:45.385  INFO 13904 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-11-16 16:48:45.390  INFO 13904 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2018-11-16 16:51:01.177  INFO 13140 --- [main] com.wzzz.wxs.order.OrderApplication      : Starting OrderApplication on DESKTOP-GLAGLH6 with PID 13140 (F:\idea\wzzm.wxs\Order\target\classes started by Jiga in F:\idea\wzzm.wxs)
+2018-11-16 16:51:01.179  INFO 13140 --- [main] com.wzzz.wxs.order.OrderApplication      : No active profile set, falling back to default profiles: default
+2018-11-16 16:51:01.765  INFO 13140 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 16:51:01.767  INFO 13140 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-16 16:51:01.783  INFO 13140 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2018-11-16 16:51:01.954  INFO 13140 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:51:01.975  INFO 13140 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$20a8e7a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:51:01.991  INFO 13140 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:51:01.995  INFO 13140 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:51:02.173  INFO 13140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-16 16:51:02.184  INFO 13140 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-16 16:51:02.184  INFO 13140 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-16 16:51:02.189  INFO 13140 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\jdk\jdk\bin;"F:\jdk\jdk\bin;F:\jdk\jdk\jre\bin";F:\mysql\bin;C:\WINDOWS\System32\OpenSSH\;F:\apache-maven-3.5.4\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Jiga\AppData\Local\Microsoft\WindowsApps;E:\Bandizip\;.]
+2018-11-16 16:51:02.260  INFO 13140 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-16 16:51:02.260  INFO 13140 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1056 ms
+2018-11-16 16:51:02.296  INFO 13140 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-16 16:51:02.297  INFO 13140 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet statViewServlet mapped to [/druid/*]
+2018-11-16 16:51:02.299  INFO 13140 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-16 16:51:02.300  INFO 13140 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-16 16:51:02.300  INFO 13140 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-16 16:51:02.300  INFO 13140 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-16 16:51:02.300  INFO 13140 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-16 16:51:02.491  INFO 13140 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 16:51:03.040  INFO 13140 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 16:51:03.905  INFO 13140 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-16 16:51:03.991  INFO 13140 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-16 16:51:04.176  INFO 13140 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-11-16 16:51:04.187  INFO 13140 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-11-16 16:51:04.208  INFO 13140 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-11-16 16:51:04.238  INFO 13140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-16 16:51:04.239  INFO 13140 --- [main] com.wzzz.wxs.order.OrderApplication      : Started OrderApplication in 3.315 seconds (JVM running for 3.82)
+2018-11-16 16:51:10.332  INFO 13140 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-16 16:51:10.333  INFO 13140 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-11-16 16:51:10.337  INFO 13140 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2018-11-16 16:55:25.435  INFO 1636 --- [main] com.wzzz.wxs.order.OrderApplication      : Starting OrderApplication on DESKTOP-GLAGLH6 with PID 1636 (F:\idea\wzzm.wxs\Order\target\classes started by Jiga in F:\idea\wzzm.wxs)
+2018-11-16 16:55:25.438  INFO 1636 --- [main] com.wzzz.wxs.order.OrderApplication      : No active profile set, falling back to default profiles: default
+2018-11-16 16:55:26.011  INFO 1636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 16:55:26.013  INFO 1636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-16 16:55:26.029  INFO 1636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2018-11-16 16:55:26.190  INFO 1636 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:55:26.208  INFO 1636 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ffa60ee2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:55:26.223  INFO 1636 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:55:26.227  INFO 1636 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:55:26.403  INFO 1636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-16 16:55:26.413  INFO 1636 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-16 16:55:26.414  INFO 1636 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-16 16:55:26.418  INFO 1636 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\jdk\jdk\bin;"F:\jdk\jdk\bin;F:\jdk\jdk\jre\bin";F:\mysql\bin;C:\WINDOWS\System32\OpenSSH\;F:\apache-maven-3.5.4\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Jiga\AppData\Local\Microsoft\WindowsApps;E:\Bandizip\;.]
+2018-11-16 16:55:26.491  INFO 1636 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-16 16:55:26.491  INFO 1636 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1023 ms
+2018-11-16 16:55:26.535  INFO 1636 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-16 16:55:26.535  INFO 1636 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet statViewServlet mapped to [/druid/*]
+2018-11-16 16:55:26.537  INFO 1636 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-16 16:55:26.538  INFO 1636 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-16 16:55:26.538  INFO 1636 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-16 16:55:26.538  INFO 1636 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-16 16:55:26.538  INFO 1636 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-16 16:55:26.712  INFO 1636 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 16:55:27.190  INFO 1636 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 16:55:28.060  INFO 1636 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-16 16:55:28.143  INFO 1636 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-16 16:55:28.329  INFO 1636 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-11-16 16:55:28.339  INFO 1636 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-11-16 16:55:28.362  INFO 1636 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-11-16 16:55:28.390  INFO 1636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-16 16:55:28.392  INFO 1636 --- [main] com.wzzz.wxs.order.OrderApplication      : Started OrderApplication in 3.201 seconds (JVM running for 3.749)
+2018-11-16 16:55:34.710  INFO 1636 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-16 16:55:34.710  INFO 1636 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-11-16 16:55:34.715  INFO 1636 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2018-11-16 16:56:30.126  INFO 15496 --- [main] com.wzzz.wxs.order.OrderApplication      : Starting OrderApplication on DESKTOP-GLAGLH6 with PID 15496 (F:\idea\wzzm.wxs\Order\target\classes started by Jiga in F:\idea\wzzm.wxs)
+2018-11-16 16:56:30.128  INFO 15496 --- [main] com.wzzz.wxs.order.OrderApplication      : No active profile set, falling back to default profiles: default
+2018-11-16 16:56:30.720  INFO 15496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 16:56:30.722  INFO 15496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-16 16:56:30.738  INFO 15496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2018-11-16 16:56:30.900  INFO 15496 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:56:30.919  INFO 15496 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1d4cdce1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:56:30.936  INFO 15496 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:56:30.940  INFO 15496 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:56:31.123  INFO 15496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-16 16:56:31.135  INFO 15496 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-16 16:56:31.135  INFO 15496 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-16 16:56:31.140  INFO 15496 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\jdk\jdk\bin;"F:\jdk\jdk\bin;F:\jdk\jdk\jre\bin";F:\mysql\bin;C:\WINDOWS\System32\OpenSSH\;F:\apache-maven-3.5.4\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Jiga\AppData\Local\Microsoft\WindowsApps;E:\Bandizip\;.]
+2018-11-16 16:56:31.215  INFO 15496 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-16 16:56:31.215  INFO 15496 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1055 ms
+2018-11-16 16:56:31.249  INFO 15496 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-16 16:56:31.250  INFO 15496 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet statViewServlet mapped to [/druid/*]
+2018-11-16 16:56:31.252  INFO 15496 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-16 16:56:31.253  INFO 15496 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-16 16:56:31.253  INFO 15496 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-16 16:56:31.253  INFO 15496 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-16 16:56:31.253  INFO 15496 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-16 16:56:31.441  INFO 15496 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 16:56:32.048  INFO 15496 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 16:56:32.909  INFO 15496 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-16 16:56:32.993  INFO 15496 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-16 16:56:33.187  INFO 15496 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-11-16 16:56:33.197  INFO 15496 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-11-16 16:56:33.219  INFO 15496 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-11-16 16:56:33.316  INFO 15496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-16 16:56:33.318  INFO 15496 --- [main] com.wzzz.wxs.order.OrderApplication      : Started OrderApplication in 3.45 seconds (JVM running for 3.963)
+2018-11-16 16:56:38.776  INFO 15496 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-16 16:56:38.776  INFO 15496 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-11-16 16:56:38.781  INFO 15496 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2018-11-16 17:44:31.199  INFO 8656 --- [main] com.wzzz.wxs.order.OrderApplication      : Starting OrderApplication on DESKTOP-GLAGLH6 with PID 8656 (F:\idea\wzzm.wxs\Order\target\classes started by Jiga in F:\idea\wzzm.wxs)
+2018-11-16 17:44:31.210  INFO 8656 --- [main] com.wzzz.wxs.order.OrderApplication      : No active profile set, falling back to default profiles: default
+2018-11-16 17:44:31.989  INFO 8656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 17:44:31.991  INFO 8656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-16 17:44:32.007  INFO 8656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2018-11-16 17:44:32.173  INFO 8656 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 17:44:32.194  INFO 8656 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7f21c979] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 17:44:32.212  INFO 8656 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 17:44:32.215  INFO 8656 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 17:44:32.395  INFO 8656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-16 17:44:32.409  INFO 8656 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-16 17:44:32.409  INFO 8656 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-16 17:44:32.413  INFO 8656 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\jdk\jdk\bin;"F:\jdk\jdk\bin;F:\jdk\jdk\jre\bin";F:\mysql\bin;C:\WINDOWS\System32\OpenSSH\;F:\apache-maven-3.5.4\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Jiga\AppData\Local\Microsoft\WindowsApps;E:\Bandizip\;.]
+2018-11-16 17:44:32.583  INFO 8656 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-16 17:44:32.584  INFO 8656 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1280 ms
+2018-11-16 17:44:32.649  INFO 8656 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-16 17:44:32.650  INFO 8656 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet statViewServlet mapped to [/druid/*]
+2018-11-16 17:44:32.655  INFO 8656 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-16 17:44:32.656  INFO 8656 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-16 17:44:32.656  INFO 8656 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-16 17:44:32.656  INFO 8656 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-16 17:44:32.656  INFO 8656 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-16 17:44:32.850  INFO 8656 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 17:44:34.362  INFO 8656 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 17:44:35.726  INFO 8656 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-16 17:44:35.818  INFO 8656 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-16 17:44:36.017  INFO 8656 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-11-16 17:44:36.030  INFO 8656 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-11-16 17:44:36.067  INFO 8656 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-11-16 17:44:36.140  INFO 8656 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_1
+2018-11-16 17:44:36.142  INFO 8656 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_2
+2018-11-16 17:44:36.144  INFO 8656 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_3
+2018-11-16 17:44:36.146  INFO 8656 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_4
+2018-11-16 17:44:36.148  INFO 8656 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_5
+2018-11-16 17:44:36.150  INFO 8656 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_6
+2018-11-16 17:44:36.152  INFO 8656 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_7
+2018-11-16 17:44:36.189  INFO 8656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-16 17:44:36.191  INFO 8656 --- [main] com.wzzz.wxs.order.OrderApplication      : Started OrderApplication in 5.288 seconds (JVM running for 5.849)
+2018-11-16 17:44:40.665  INFO 8656 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-16 17:44:40.666  INFO 8656 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-11-16 17:44:40.676  INFO 8656 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2018-11-16 17:44:41.463  INFO 8656 --- [http-nio-8080-exec-2] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2018-11-16 17:44:41.464  INFO 8656 --- [http-nio-8080-exec-2] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2018-11-16 17:45:24.941  INFO 1860 --- [main] com.wzzz.wxs.order.OrderApplication      : Starting OrderApplication on DESKTOP-GLAGLH6 with PID 1860 (F:\idea\wzzm.wxs\Order\target\classes started by Jiga in F:\idea\wzzm.wxs)
+2018-11-16 17:45:24.945  INFO 1860 --- [main] com.wzzz.wxs.order.OrderApplication      : No active profile set, falling back to default profiles: default
+2018-11-16 17:45:25.579  INFO 1860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 17:45:25.579  INFO 1860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-16 17:45:25.596  INFO 1860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2018-11-16 17:45:25.754  INFO 1860 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 17:45:25.772  INFO 1860 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$af5907fe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 17:45:25.789  INFO 1860 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 17:45:25.793  INFO 1860 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 17:45:25.993  INFO 1860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-16 17:45:26.013  INFO 1860 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-16 17:45:26.013  INFO 1860 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-16 17:45:26.022  INFO 1860 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\jdk\jdk\bin;"F:\jdk\jdk\bin;F:\jdk\jdk\jre\bin";F:\mysql\bin;C:\WINDOWS\System32\OpenSSH\;F:\apache-maven-3.5.4\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Jiga\AppData\Local\Microsoft\WindowsApps;E:\Bandizip\;.]
+2018-11-16 17:45:26.163  INFO 1860 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-16 17:45:26.163  INFO 1860 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1187 ms
+2018-11-16 17:45:26.193  INFO 1860 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-16 17:45:26.194  INFO 1860 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet statViewServlet mapped to [/druid/*]
+2018-11-16 17:45:26.197  INFO 1860 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-16 17:45:26.197  INFO 1860 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-16 17:45:26.197  INFO 1860 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-16 17:45:26.197  INFO 1860 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-16 17:45:26.197  INFO 1860 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-16 17:45:26.381  INFO 1860 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 17:45:27.406  INFO 1860 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 17:45:28.972  INFO 1860 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-16 17:45:29.065  INFO 1860 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-16 17:45:29.297  INFO 1860 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-11-16 17:45:29.307  INFO 1860 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-11-16 17:45:29.328  INFO 1860 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-11-16 17:45:29.389  INFO 1860 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_1
+2018-11-16 17:45:29.390  INFO 1860 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_2
+2018-11-16 17:45:29.393  INFO 1860 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_3
+2018-11-16 17:45:29.395  INFO 1860 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_4
+2018-11-16 17:45:29.397  INFO 1860 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_5
+2018-11-16 17:45:29.399  INFO 1860 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_6
+2018-11-16 17:45:29.401  INFO 1860 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_7
+2018-11-16 17:45:29.438  INFO 1860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-16 17:45:29.439  INFO 1860 --- [main] com.wzzz.wxs.order.OrderApplication      : Started OrderApplication in 4.867 seconds (JVM running for 5.574)
+2018-11-16 17:45:34.307  INFO 1860 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-16 17:45:34.307  INFO 1860 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-11-16 17:45:34.319  INFO 1860 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2018-11-16 17:45:35.103  INFO 1860 --- [http-nio-8080-exec-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2018-11-16 17:45:35.105  INFO 1860 --- [http-nio-8080-exec-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2018-11-16 17:51:19.853  INFO 15796 --- [main] com.wzzz.wxs.order.OrderApplication      : Starting OrderApplication on DESKTOP-GLAGLH6 with PID 15796 (F:\idea\wzzm.wxs\Order\target\classes started by Jiga in F:\idea\wzzm.wxs)
+2018-11-16 17:51:19.855  INFO 15796 --- [main] com.wzzz.wxs.order.OrderApplication      : No active profile set, falling back to default profiles: default
+2018-11-16 17:51:20.536  INFO 15796 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 17:51:20.536  INFO 15796 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-16 17:51:20.552  INFO 15796 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2018-11-16 17:51:20.719  INFO 15796 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 17:51:20.736  INFO 15796 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a0960b02] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 17:51:20.754  INFO 15796 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 17:51:20.758  INFO 15796 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 17:51:20.945  INFO 15796 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-16 17:51:20.957  INFO 15796 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-16 17:51:20.958  INFO 15796 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-16 17:51:20.962  INFO 15796 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\jdk\jdk\bin;"F:\jdk\jdk\bin;F:\jdk\jdk\jre\bin";F:\mysql\bin;C:\WINDOWS\System32\OpenSSH\;F:\apache-maven-3.5.4\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Jiga\AppData\Local\Microsoft\WindowsApps;E:\Bandizip\;.]
+2018-11-16 17:51:21.040  INFO 15796 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-16 17:51:21.040  INFO 15796 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1157 ms
+2018-11-16 17:51:21.064  INFO 15796 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-16 17:51:21.068  INFO 15796 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet statViewServlet mapped to [/druid/*]
+2018-11-16 17:51:21.070  INFO 15796 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-16 17:51:21.070  INFO 15796 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-16 17:51:21.070  INFO 15796 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-16 17:51:21.070  INFO 15796 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-16 17:51:21.070  INFO 15796 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-16 17:51:21.252  INFO 15796 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 17:51:22.539  INFO 15796 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 17:51:23.836  INFO 15796 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-16 17:51:23.924  INFO 15796 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-16 17:51:24.136  INFO 15796 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-11-16 17:51:24.145  INFO 15796 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-11-16 17:51:24.171  INFO 15796 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-11-16 17:51:24.247  INFO 15796 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_1
+2018-11-16 17:51:24.250  INFO 15796 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_2
+2018-11-16 17:51:24.253  INFO 15796 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_3
+2018-11-16 17:51:24.255  INFO 15796 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_4
+2018-11-16 17:51:24.257  INFO 15796 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_5
+2018-11-16 17:51:24.258  INFO 15796 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_6
+2018-11-16 17:51:24.260  INFO 15796 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_7
+2018-11-16 17:51:24.311  INFO 15796 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-16 17:51:24.314  INFO 15796 --- [main] com.wzzz.wxs.order.OrderApplication      : Started OrderApplication in 4.83 seconds (JVM running for 5.535)
+2018-11-16 19:32:10.810  INFO 15832 --- [main] com.wzzz.wxs.order.OrderApplication      : Starting OrderApplication on DESKTOP-GLAGLH6 with PID 15832 (F:\idea\wzzm.wxs\Order\target\classes started by Jiga in F:\idea\wzzm.wxs)
+2018-11-16 19:32:10.813  INFO 15832 --- [main] com.wzzz.wxs.order.OrderApplication      : No active profile set, falling back to default profiles: default
+2018-11-16 19:32:11.417  INFO 15832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 19:32:11.419  INFO 15832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-16 19:32:11.433  INFO 15832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2018-11-16 19:32:11.588  INFO 15832 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 19:32:11.605  INFO 15832 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$31723b68] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 19:32:11.620  INFO 15832 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 19:32:11.624  INFO 15832 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 19:32:11.802  INFO 15832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-16 19:32:11.813  INFO 15832 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-16 19:32:11.814  INFO 15832 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-16 19:32:11.825  INFO 15832 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\jdk\jdk\bin;"F:\jdk\jdk\bin;F:\jdk\jdk\jre\bin";F:\mysql\bin;C:\WINDOWS\System32\OpenSSH\;F:\apache-maven-3.5.4\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Jiga\AppData\Local\Microsoft\WindowsApps;E:\Bandizip\;.]
+2018-11-16 19:32:11.896  INFO 15832 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-16 19:32:11.896  INFO 15832 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1056 ms
+2018-11-16 19:32:11.922  INFO 15832 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-16 19:32:11.923  INFO 15832 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet statViewServlet mapped to [/druid/*]
+2018-11-16 19:32:11.925  INFO 15832 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-16 19:32:11.925  INFO 15832 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-16 19:32:11.925  INFO 15832 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-16 19:32:11.925  INFO 15832 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-16 19:32:11.925  INFO 15832 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-16 19:32:12.094  INFO 15832 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 19:32:12.643  INFO 15832 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 19:32:13.484  INFO 15832 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-16 19:32:13.567  INFO 15832 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-16 19:32:13.757  INFO 15832 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-11-16 19:32:13.767  INFO 15832 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-11-16 19:32:13.789  INFO 15832 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-11-16 19:32:13.856  INFO 15832 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_1
+2018-11-16 19:32:13.857  INFO 15832 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_2
+2018-11-16 19:32:13.859  INFO 15832 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_3
+2018-11-16 19:32:13.861  INFO 15832 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_4
+2018-11-16 19:32:13.863  INFO 15832 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_5
+2018-11-16 19:32:13.865  INFO 15832 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_6
+2018-11-16 19:32:13.867  INFO 15832 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_7
+2018-11-16 19:32:13.903  INFO 15832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-16 19:32:13.905  INFO 15832 --- [main] com.wzzz.wxs.order.OrderApplication      : Started OrderApplication in 3.369 seconds (JVM running for 3.887)
+2018-11-16 19:32:41.073  INFO 15832 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-16 19:32:41.074  INFO 15832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-11-16 19:32:41.082  INFO 15832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2018-11-16 19:35:32.779  INFO 16948 --- [main] com.wzzz.wxs.order.OrderApplication      : Starting OrderApplication on DESKTOP-GLAGLH6 with PID 16948 (F:\idea\wzzm.wxs\Order\target\classes started by Jiga in F:\idea\wzzm.wxs)
+2018-11-16 19:35:32.782  INFO 16948 --- [main] com.wzzz.wxs.order.OrderApplication      : No active profile set, falling back to default profiles: default
+2018-11-16 19:35:33.378  INFO 16948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 19:35:33.379  INFO 16948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-16 19:35:33.394  INFO 16948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2018-11-16 19:35:33.551  INFO 16948 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 19:35:33.569  INFO 16948 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b564c6c9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 19:35:33.584  INFO 16948 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 19:35:33.588  INFO 16948 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 19:35:33.763  INFO 16948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-16 19:35:33.774  INFO 16948 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-16 19:35:33.775  INFO 16948 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-16 19:35:33.779  INFO 16948 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\jdk\jdk\bin;"F:\jdk\jdk\bin;F:\jdk\jdk\jre\bin";F:\mysql\bin;C:\WINDOWS\System32\OpenSSH\;F:\apache-maven-3.5.4\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Jiga\AppData\Local\Microsoft\WindowsApps;E:\Bandizip\;.]
+2018-11-16 19:35:33.860  INFO 16948 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-16 19:35:33.860  INFO 16948 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1053 ms
+2018-11-16 19:35:33.886  INFO 16948 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-16 19:35:33.887  INFO 16948 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet statViewServlet mapped to [/druid/*]
+2018-11-16 19:35:33.889  INFO 16948 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-16 19:35:33.889  INFO 16948 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-16 19:35:33.889  INFO 16948 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-16 19:35:33.889  INFO 16948 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-16 19:35:33.889  INFO 16948 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-16 19:35:34.060  INFO 16948 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 19:35:34.585  INFO 16948 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 19:35:35.372  INFO 16948 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-16 19:35:35.453  INFO 16948 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-16 19:35:35.639  INFO 16948 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-11-16 19:35:35.649  INFO 16948 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-11-16 19:35:35.668  INFO 16948 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-11-16 19:35:35.730  INFO 16948 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_1
+2018-11-16 19:35:35.732  INFO 16948 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_2
+2018-11-16 19:35:35.734  INFO 16948 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_3
+2018-11-16 19:35:35.736  INFO 16948 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_4
+2018-11-16 19:35:35.738  INFO 16948 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_5
+2018-11-16 19:35:35.740  INFO 16948 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_6
+2018-11-16 19:35:35.742  INFO 16948 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_7
+2018-11-16 19:35:35.779  INFO 16948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-16 19:35:35.781  INFO 16948 --- [main] com.wzzz.wxs.order.OrderApplication      : Started OrderApplication in 3.256 seconds (JVM running for 3.806)
+2018-11-16 19:35:40.760  INFO 16948 --- [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-16 19:35:40.760  INFO 16948 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-11-16 19:35:40.764  INFO 16948 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2018-11-16 19:36:26.843  INFO 11656 --- [main] com.wzzz.wxs.order.OrderApplication      : Starting OrderApplication on DESKTOP-GLAGLH6 with PID 11656 (F:\idea\wzzm.wxs\Order\target\classes started by Jiga in F:\idea\wzzm.wxs)
+2018-11-16 19:36:26.846  INFO 11656 --- [main] com.wzzz.wxs.order.OrderApplication      : No active profile set, falling back to default profiles: default
+2018-11-16 19:36:27.477  INFO 11656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 19:36:27.479  INFO 11656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-16 19:36:27.494  INFO 11656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2018-11-16 19:36:27.655  INFO 11656 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 19:36:27.674  INFO 11656 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5cf0bf46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 19:36:27.692  INFO 11656 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 19:36:27.695  INFO 11656 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 19:36:27.873  INFO 11656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-16 19:36:27.884  INFO 11656 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-16 19:36:27.884  INFO 11656 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-16 19:36:27.888  INFO 11656 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\jdk\jdk\bin;"F:\jdk\jdk\bin;F:\jdk\jdk\jre\bin";F:\mysql\bin;C:\WINDOWS\System32\OpenSSH\;F:\apache-maven-3.5.4\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Jiga\AppData\Local\Microsoft\WindowsApps;E:\Bandizip\;.]
+2018-11-16 19:36:27.969  INFO 11656 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-16 19:36:27.970  INFO 11656 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1097 ms
+2018-11-16 19:36:27.994  INFO 11656 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-16 19:36:27.995  INFO 11656 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet statViewServlet mapped to [/druid/*]
+2018-11-16 19:36:27.997  INFO 11656 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-16 19:36:27.997  INFO 11656 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-16 19:36:27.997  INFO 11656 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-16 19:36:27.997  INFO 11656 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-16 19:36:27.997  INFO 11656 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-16 19:36:28.168  INFO 11656 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 19:36:28.730  INFO 11656 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 19:36:29.544  INFO 11656 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-16 19:36:29.623  INFO 11656 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-16 19:36:29.807  INFO 11656 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-11-16 19:36:29.816  INFO 11656 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-11-16 19:36:29.838  INFO 11656 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-11-16 19:36:29.898  INFO 11656 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_1
+2018-11-16 19:36:29.900  INFO 11656 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_2
+2018-11-16 19:36:29.902  INFO 11656 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_3
+2018-11-16 19:36:29.904  INFO 11656 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_4
+2018-11-16 19:36:29.906  INFO 11656 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_5
+2018-11-16 19:36:29.908  INFO 11656 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_6
+2018-11-16 19:36:29.910  INFO 11656 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: aaUsingPOST_7
+2018-11-16 19:36:29.956  INFO 11656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-16 19:36:29.958  INFO 11656 --- [main] com.wzzz.wxs.order.OrderApplication      : Started OrderApplication in 3.37 seconds (JVM running for 3.933)
+2018-11-16 19:36:35.817  INFO 11656 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-16 19:36:35.818  INFO 11656 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-11-16 19:36:35.822  INFO 11656 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2018-11-16 19:36:47.231  INFO 2620 --- [main] com.wzm.entran.entran.EntranApplication  : Starting EntranApplication on DESKTOP-GLAGLH6 with PID 2620 (F:\idea\wzzm.wxs\Entran\target\classes started by Jiga in F:\idea\wzzm.wxs)
+2018-11-16 19:36:47.234  INFO 2620 --- [main] com.wzm.entran.entran.EntranApplication  : No active profile set, falling back to default profiles: default
+2018-11-16 19:36:47.657  INFO 2620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 19:36:47.659  INFO 2620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-16 19:36:47.673  INFO 2620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2018-11-16 19:36:47.822  INFO 2620 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 19:36:47.847  INFO 2620 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d0c469f3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 19:36:47.861  INFO 2620 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 19:36:47.865  INFO 2620 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 19:36:48.029  INFO 2620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-16 19:36:48.042  INFO 2620 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-16 19:36:48.042  INFO 2620 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-16 19:36:48.046  INFO 2620 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\jdk\jdk\bin;"F:\jdk\jdk\bin;F:\jdk\jdk\jre\bin";F:\mysql\bin;C:\WINDOWS\System32\OpenSSH\;F:\apache-maven-3.5.4\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Jiga\AppData\Local\Microsoft\WindowsApps;E:\Bandizip\;.]
+2018-11-16 19:36:48.115  INFO 2620 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-16 19:36:48.116  INFO 2620 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 856 ms
+2018-11-16 19:36:48.140  INFO 2620 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-16 19:36:48.141  INFO 2620 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet statViewServlet mapped to [/druid/*]
+2018-11-16 19:36:48.143  INFO 2620 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-16 19:36:48.143  INFO 2620 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-16 19:36:48.143  INFO 2620 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-16 19:36:48.143  INFO 2620 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-16 19:36:48.143  INFO 2620 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-16 19:36:48.176  INFO 2620 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 19:36:48.751  INFO 2620 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 19:36:49.000  INFO 2620 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-16 19:36:49.319 ERROR 2620 --- [main] org.apache.catalina.util.LifecycleBase   : Failed to start component [Connector[HTTP/1.1-8080]]
+
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:960) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) [spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at com.wzm.entran.entran.EntranApplication.main(EntranApplication.java:10) [classes/:na]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_101]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_101]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_101]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_101]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_101]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1108) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:550) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:957) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	... 14 common frames omitted
+
+2018-11-16 19:36:49.322  INFO 2620 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-11-16 19:36:49.328  INFO 2620 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-11-16 19:36:49.330 ERROR 2620 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2018-11-16 19:36:49.339  INFO 2620 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-11-16 19:36:49.341  INFO 2620 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2018-11-16 19:37:24.602  INFO 13644 --- [main] com.wzm.entran.entran.EntranApplication  : Starting EntranApplication on DESKTOP-GLAGLH6 with PID 13644 (F:\idea\wzzm.wxs\Entran\target\classes started by Jiga in F:\idea\wzzm.wxs)
+2018-11-16 19:37:24.604  INFO 13644 --- [main] com.wzm.entran.entran.EntranApplication  : No active profile set, falling back to default profiles: default
+2018-11-16 19:37:25.199  INFO 13644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 19:37:25.200  INFO 13644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-16 19:37:25.215  INFO 13644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2018-11-16 19:37:25.378  INFO 13644 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 19:37:25.395  INFO 13644 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e26b43ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 19:37:25.411  INFO 13644 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 19:37:25.415  INFO 13644 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 19:37:25.594  INFO 13644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-16 19:37:25.605  INFO 13644 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-16 19:37:25.605  INFO 13644 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-16 19:37:25.609  INFO 13644 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\jdk\jdk\bin;"F:\jdk\jdk\bin;F:\jdk\jdk\jre\bin";F:\mysql\bin;C:\WINDOWS\System32\OpenSSH\;F:\apache-maven-3.5.4\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Jiga\AppData\Local\Microsoft\WindowsApps;E:\Bandizip\;.]
+2018-11-16 19:37:25.689  INFO 13644 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-16 19:37:25.689  INFO 13644 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1057 ms
+2018-11-16 19:37:25.714  INFO 13644 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-16 19:37:25.715  INFO 13644 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet statViewServlet mapped to [/druid/*]
+2018-11-16 19:37:25.717  INFO 13644 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-16 19:37:25.717  INFO 13644 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-16 19:37:25.717  INFO 13644 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-16 19:37:25.717  INFO 13644 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-16 19:37:25.717  INFO 13644 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-16 19:37:25.752  INFO 13644 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 19:37:26.321  INFO 13644 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 19:37:26.633  INFO 13644 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-16 19:37:26.713  INFO 13644 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-16 19:37:26.998  INFO 13644 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-11-16 19:37:27.007  INFO 13644 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-11-16 19:37:27.026  INFO 13644 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-11-16 19:37:27.116  INFO 13644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-16 19:37:27.118  INFO 13644 --- [main] com.wzm.entran.entran.EntranApplication  : Started EntranApplication in 2.768 seconds (JVM running for 3.289)
+2018-11-16 19:37:33.300  INFO 13644 --- [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-16 19:37:33.300  INFO 13644 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-11-16 19:37:33.305  INFO 13644 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2018-11-16 19:41:00.807  INFO 15072 --- [main] com.wzm.entran.entran.EntranApplication  : Starting EntranApplication on DESKTOP-GLAGLH6 with PID 15072 (F:\idea\wzzm.wxs\Entran\target\classes started by Jiga in F:\idea\wzzm.wxs)
+2018-11-16 19:41:00.809  INFO 15072 --- [main] com.wzm.entran.entran.EntranApplication  : No active profile set, falling back to default profiles: default
+2018-11-16 19:41:01.403  INFO 15072 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 19:41:01.405  INFO 15072 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-16 19:41:01.418  INFO 15072 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2018-11-16 19:41:01.575  INFO 15072 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 19:41:01.594  INFO 15072 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1113efd6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 19:41:01.609  INFO 15072 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 19:41:01.612  INFO 15072 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 19:41:01.790  INFO 15072 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-16 19:41:01.800  INFO 15072 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-16 19:41:01.801  INFO 15072 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-16 19:41:01.805  INFO 15072 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\jdk\jdk\bin;"F:\jdk\jdk\bin;F:\jdk\jdk\jre\bin";F:\mysql\bin;C:\WINDOWS\System32\OpenSSH\;F:\apache-maven-3.5.4\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Jiga\AppData\Local\Microsoft\WindowsApps;E:\Bandizip\;.]
+2018-11-16 19:41:01.879  INFO 15072 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-16 19:41:01.879  INFO 15072 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1043 ms
+2018-11-16 19:41:01.904  INFO 15072 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-16 19:41:01.905  INFO 15072 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet statViewServlet mapped to [/druid/*]
+2018-11-16 19:41:01.907  INFO 15072 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-16 19:41:01.907  INFO 15072 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-16 19:41:01.907  INFO 15072 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-16 19:41:01.907  INFO 15072 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-16 19:41:01.907  INFO 15072 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-16 19:41:01.942  INFO 15072 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 19:41:02.498  INFO 15072 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 19:41:02.808  INFO 15072 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-16 19:41:02.888  INFO 15072 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-16 19:41:03.168  INFO 15072 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-11-16 19:41:03.178  INFO 15072 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-11-16 19:41:03.197  INFO 15072 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-11-16 19:41:03.285  INFO 15072 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-16 19:41:03.286  INFO 15072 --- [main] com.wzm.entran.entran.EntranApplication  : Started EntranApplication in 2.743 seconds (JVM running for 3.267)
+2018-11-16 19:41:09.535  INFO 15072 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-16 19:41:09.535  INFO 15072 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-11-16 19:41:09.545  INFO 15072 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2018-11-16 20:22:04.680  INFO 2696 --- [main] com.wzm.entran.entran.EntranApplication  : Starting EntranApplication on DESKTOP-GLAGLH6 with PID 2696 (F:\idea\wzzm.wxs\Entran\target\classes started by Jiga in F:\idea\wzzm.wxs)
+2018-11-16 20:22:04.682  INFO 2696 --- [main] com.wzm.entran.entran.EntranApplication  : No active profile set, falling back to default profiles: default
+2018-11-16 20:22:05.278  INFO 2696 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 20:22:05.279  INFO 2696 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-16 20:22:05.293  INFO 2696 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2018-11-16 20:22:05.451  INFO 2696 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 20:22:05.469  INFO 2696 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$81bd4cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 20:22:05.484  INFO 2696 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 20:22:05.487  INFO 2696 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 20:22:05.664  INFO 2696 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-16 20:22:05.674  INFO 2696 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-16 20:22:05.674  INFO 2696 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-16 20:22:05.678  INFO 2696 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\jdk\jdk\bin;"F:\jdk\jdk\bin;F:\jdk\jdk\jre\bin";F:\mysql\bin;C:\WINDOWS\System32\OpenSSH\;F:\apache-maven-3.5.4\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Jiga\AppData\Local\Microsoft\WindowsApps;E:\Bandizip\;.]
+2018-11-16 20:22:05.762  INFO 2696 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-16 20:22:05.762  INFO 2696 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1054 ms
+2018-11-16 20:22:05.787  INFO 2696 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-16 20:22:05.788  INFO 2696 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet statViewServlet mapped to [/druid/*]
+2018-11-16 20:22:05.790  INFO 2696 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-16 20:22:05.790  INFO 2696 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-16 20:22:05.790  INFO 2696 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-16 20:22:05.791  INFO 2696 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-16 20:22:05.791  INFO 2696 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-16 20:22:05.826  INFO 2696 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 20:22:06.445  INFO 2696 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 20:22:06.749  INFO 2696 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-16 20:22:06.827  INFO 2696 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-16 20:22:07.105  INFO 2696 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-11-16 20:22:07.115  INFO 2696 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-11-16 20:22:07.134  INFO 2696 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-11-16 20:22:07.221  INFO 2696 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-16 20:22:07.223  INFO 2696 --- [main] com.wzm.entran.entran.EntranApplication  : Started EntranApplication in 2.804 seconds (JVM running for 3.306)
+2018-11-16 20:22:20.344  INFO 2696 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-16 20:22:20.345  INFO 2696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-11-16 20:22:20.349  INFO 2696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms

@@ -6,10 +6,12 @@
 
     <groupId>com.wzzm.wxs</groupId>
     <artifactId>wzzm.wxs</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <modules>
         <module>Order</module>
+        <module>Entran</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -50,12 +52,6 @@
             <artifactId>wxs.orderutil</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-        <dependency>
-            <groupId>com.wzzm.wxs</groupId>
-            <artifactId>wzzm.wxs</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-
         <!--引入cache-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -103,9 +99,39 @@
             <artifactId>springfox-swagger-ui</artifactId>
             <version>2.7.0</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+            <version>1.1.10</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpcore</artifactId>
+            <version>4.0.1</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.0.2</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
-
-
+    <build>
+    <resources>
+        <resource>
+            <directory>src/main/java</directory>
+        </resource>
+        <resource>
+            <directory>src/main/resources</directory>
+        </resource>
+    </resources>
+    <plugins>
+        <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+        </plugin>
+    </plugins>
+</build>
 
 </project>
