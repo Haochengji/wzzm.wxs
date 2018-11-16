@@ -46,8 +46,8 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.wzzm.wxs</groupId>
-            <artifactId>wzzm.wxs</artifactId>
+            <groupId>org.wxs.orderutil</groupId>
+            <artifactId>wxs.orderutil</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
