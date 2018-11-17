@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.example.fenye.com.dao.UserDao">
+<mapper namespace="com.wzzz.wxs.order.cn.dao.UserDao">
     <select id="allUser" resultType="pojo.User" parameterType="pojo.User">
         select uid,uname,upwd,uphone,utype,u1,u2,u3 from user
         <trim prefix="where" prefixOverrides="and|or">
