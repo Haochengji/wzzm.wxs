@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.fenye.com.dao.OrderDao">
+    <resultMap id="orderMap" type="pojo.Order">
+        <result column="oid" property="oid"/>
+        <result column="omoney" property="omoney"/>
+        <result column="otype" property="otype"/>
+        <association property="ouser" javaType="pojo.User">
+            <result column="uid" property="uid"/>
+            <result column="uname" property="uname"/>
+            <result column="upwd" property="upwd"/>
+            <result column="uphone" property="uphone"/>
+            <result column="utype" property="utype"/>
+        </association>
+        <association property="omenu" javaType="pojo.Menu">
+            <result column="mid" property="mid"/>
+            <result column="mname" property="mname"/>
+            <result column="mprice" property="mprice"/>
+            <result column="mdishes" property="mdishes"/>
+            <result column="mstate" property="mstate"/>
+            <result column="frequency" property="frequency"/>
+        </association>
+    </resultMap>
+
+    <select id="getOrdersByOrder" resultMap="orderMap" parameterType="pojo.Order">
+        select oid,ouser,omenu,omoney,otype,uid,uname,upwd,uphone,utype,mid,mname,mprice,mdishes,mstate from
+        `order`,`user`,`menu`
+        <trim prefix="where" prefixOverrides="and">
+            <if test="oid != null">
+                and oid=#{oid}
+            </if>
+            <if test="ouser != null">
+                and ouser=#{ouser}
+            </if>
+            <if test="omenu != null">
+                and omenu=#{omenu}
+            </if>
+            <if test="omoney != null">
+                and omoney=#{omoney}
+            </if>
+            <if test="otype != null">
+                and otype=#{otype}
+            </if>
+        </trim>
+    </select>
+
+    <insert id="addOrder" parameterType="pojo.Order">
+        insert into `order` (oid, ouser, omenu, omoney, otype)
+        values (#{oid},#{ouser.uid},#{omenu.oid},#{omoney},#{otype});
+    </insert>
+
+    <update id="updataOrder" parameterType="pojo.Order">
+        update `order` set ouser=#{ouser.uid},omenu=#{omenu.oid},omoney=#{omoney},otype=#{otype} where oid=#{oid}
+    </update>
+</mapper>

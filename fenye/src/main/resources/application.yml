@@ -75,8 +75,8 @@ spring:
 
 #mybatis
 mybatis:
-  type-aliases-package: classpath:pojo
-  mapper-locations: classpath:com/wzzz/wxs/order/cn/dao/impl/*.xml
+  mapper-locations : mapper/*Mapper.xml
+
 
 #分页
 pagehelper:

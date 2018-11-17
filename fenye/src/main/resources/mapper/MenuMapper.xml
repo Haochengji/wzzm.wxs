@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.fenye.com.dao.MenuDao">
+    <select id="getAllMenu" parameterType="pojo.Menu" resultType="pojo.Menu">
+        select * from menu
+        <trim prefix="where" prefixOverrides="and|or">
+            <if test="mid != null">and mid = #{mid}</if>
+            <if test="mname != null">and mname = #{mname}</if>
+            <if test="mprice != null">and mprice = #{mprice}</if>
+            <if test="mdishes != null">and mdishes = #{mdishes}</if>
+            <if test="mstate != null">and mstate = #{mstate}</if>
+            <if test="frequency !=null">and frequency=#{frequency}</if>
+            <if test="m1 != null">and m1 =#{m1}</if>
+            <if test="m2 != null">and m2 =#{m2}</if>
+            <if test="m3 != null">and m3 =#{m3}</if>
+        </trim>
+    </select>
+
+    <insert id="addMenu" parameterType="pojo.Menu">
+        insert into menu values (0,#{mname},#{mprice},#{mdishes},#{mstate},#{frequency},#{m1},#{m2},#{m3})
+    </insert>
+
+    <update id="updateMen" parameterType="pojo.Menu">
+        update menu
+        <trim prefix="set" suffixOverrides="," suffix="where mid=#{mid}">
+            <if test="mname != null">mname = #{mname} ,</if>
+            <if test="mprice != null">mprice = #{mprice} ,</if>
+            <if test="mdishes != null">mdishes = #{mdishes} ,</if>
+            <if test="mstate != null">mstate = #{mstate} ,</if>
+            <if test="frequency !=null">frequency=#{frequency} ,</if>
+            <if test="m1 != null">m1 =#{m1} ,</if>
+            <if test="m2 != null">m2 =#{m2} ,</if>
+            <if test="m3 != null">m3 =#{m3} ,</if>
+        </trim>
+    </update>
+
+    <select id="getAllMenuByDishes" resultType="pojo.Menu" parameterType="pojo.Menu">
+        select * from menu where mdishes=#{mdishes}
+    </select>
+
+    <select id="getMenuInfo" parameterType="int" resultType="pojo.Menu">
+        select * from menu where mid=#{mid}
+    </select>
+</mapper>
